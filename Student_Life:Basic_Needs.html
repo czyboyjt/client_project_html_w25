@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 1</title>
+    <link rel="stylesheet" href="html5reset.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-            <a href = "">Skip to Main Content</a>
+        <a tabindex ="1" id="skip" href = "">Skip to Main Content</a>
+        <img id = "logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "First_Gen.html">First Gen</a></li>
-                <li class="active"><a href = "Food_Pantry.html">Maize and Blue Cupboard</a></li>
-                <li><a href = "Student_Life:Basic_Needs.html">Student Life: Basic Needs</a></li>
+                <li><a href = "Food_Pantry.html">Maize and Blue Cupboard</a></li>
+                <li class="active"><a href = "Student_Life:Basic_Needs.html">Student Life: Basic Needs</a></li>
             </ul>
         </nav>
         <h1>BASIC NEEDS</h1>
 
     </header>
     <main>
-        <img src="https://www.cew.umich.edu/wp-content/uploads/2018/06/h_counseling.jpg" alt="Two women sitting down and talking" width="1000">
-        <div>
+        <img id="land" src="https://www.cew.umich.edu/wp-content/uploads/2018/06/h_counseling.jpg" alt="Two women sitting down and talking" width="1000">
+        <div class="location">
             <h2>Striving for fair and equitable access to food and other basic resources</h2>
             <p>We believe in fair and equitable access to food and other basic resources. Because when each of us has what we need, our community is stronger and our students are more successful.
 
@@ -31,15 +34,15 @@
             This work is led by Student Life and supported by academic units and campus partners. Because more resources are being discovered and created on a regular basis, this website will be updated often. Please be patient as we grow this important resource. </p>
 
         </div>
-        <h2>Resources By Category</h2>
-<div>
+<div id="gallery">
     <img src="https://basicneeds.studentlife.umich.edu/wp-content/uploads/2019/10/criticalincident.jpg" alt="A student sitting at on a chair staring stressfully at his laptop" width="500">
     <img src="https://basicneeds.studentlife.umich.edu/wp-content/uploads/2019/10/finance.jpg" alt="Someone holding money" width="500">
     <img src="https://basicneeds.studentlife.umich.edu/wp-content/uploads/2019/10/food.jpg" alt="Someone cooking" width="500">
     <img src="https://basicneeds.studentlife.umich.edu/wp-content/uploads/2019/10/healthcare-1.jpg" alt="A stethescope" width="500">
     <img src="https://basicneeds.studentlife.umich.edu/wp-content/uploads/2019/10/housingtransportation.jpg" alt="Students waiting for the michigan blue bus" width="500">
 </div>
-<div>
+<div class="last">
+    <h2 class="end">Resources By Category</h2>
     <ul>
         <li>Critical Incident Support & Conflict Management</li>
         <li>Finance</li>
