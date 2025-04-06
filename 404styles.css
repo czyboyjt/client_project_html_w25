@@ -1,0 +1,233 @@
+body {
+    font-family: monteserrat;
+    font-size: 1em;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #00274C;
+    color: white;
+    height: 12em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    grid-template-rows: 33% 33% 33%;
+}
+h3 {
+    color: #00274C;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#logo {
+    width: 3em;
+    height: auto;
+    grid-column-start: 2;
+    align-items: center;
+    justify-self: center;
+}
+
+nav {
+    display: block;
+    margin: 2em auto;
+    color: white;
+    grid-column: 1/span 3;
+    grid-row-start: 3;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    margin: 0 0.4em;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFCB05;
+}
+
+nav a:focus {
+    color: #FFCB05;
+    border: dashed 2px white;
+    padding: 1em;
+}
+
+.active {
+    color: #FFCB05;
+    text-decoration: underline;
+}
+
+h1 {
+    grid-column-start: 2;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+
+footer {
+    background-color: #00274C;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    margin-top: 2em;
+}
+footer p {
+    color: white;
+}
+footer a {
+    color: white;
+
+}
+
+footer a:hover {
+    color: #FFCB05;
+}
+
+
+@media screen and (min-width: 765px) {
+
+body {
+    font-family: monteserrat;
+    font-size: 1em;
+    background-color: #00274C;
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #00274C;
+    color: white;
+    height: 8em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+}
+main {
+    height: fit-content;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+h2 {
+    color: white;
+    font-size: 3em;
+    padding: 0.5em 0;
+}
+p {
+    color: rgb(166, 166, 166);
+    font-size: 1.2em;
+    margin: 0 0 2em 0;
+    padding: 0 2em;
+}
+button {    
+    background-color: #FFCB05;
+    color: #00274C;
+    border: solid #00274C;
+    padding: 0.8em 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    width: fit-content;
+    align-self: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+button:hover {
+    background-color: #00274C;
+    color: #FFCB05;
+    border: solid #FFCB05;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+h3 {
+    color: #00274C;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    grid-column-start: 1;
+    align-items: center;
+    margin: 1em 0 1em 2em;
+}
+nav {
+    display: block;
+    margin: 2em auto;
+    color: white;
+    grid-column: 2;
+    grid-row-start: 1;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFCB05;
+}
+
+nav a:focus {
+    color: #FFCB05;
+    border: dashed 2px white;
+    padding: 1em;
+}
+
+.active {
+    color: #FFCB05;
+    text-decoration: underline;
+}
+h1 {
+    grid-column-start: 3;
+    color: white;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #00274C;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    margin-top: 2em;
+}
+footer p {
+    color: white;
+}
+footer a {
+    color: white;
+
+}
+
+footer a:hover {
+    color: #FFCB05;
+}
+}
