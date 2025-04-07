@@ -101,8 +101,19 @@
         </section>
         <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
+        <form>
+            <label for="first">Enter Your First Name:</label>
+            <input type="text" id="first" name="firstname" required>
+            <label for="last">Enter Your Last Name:</label>
+            <input type="text" id="last" name="lastname" required>
+            <label for="email">Enter Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="comments">What Do You Want To Talk About?:</label>
+            <input type="text" id="comments" name="comments" required>
+            <button type="submit" id="submit">Submit</button>
+        </form>
     </main>
-    <footer>
+    <footer>    
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
         <p id="currentyear">Current Year</p>
         </footer>
